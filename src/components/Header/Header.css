@@ -1,0 +1,55 @@
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+    align-items: center;
+}
+.headerLogo{
+    display: flex;
+    gap: 70px;
+}
+.hLinks{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hLinks a{
+    color: black;
+    text-decoration: none;
+}
+.headerLink{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.headerLink a{
+    text-decoration: none;
+    color: black;
+}
+.headerLink button{
+    border-radius: 10px;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 10px;
+}
+.menu{
+    display: none;
+    img{
+        width: 40px;
+    }
+}
+
+
+
+
+@media ( max-width: 900px){
+   .headerLink{
+    display: none;
+   }
+   .hLinks{
+    display: none;
+   }
+   .menu{
+    display: block;
+   }
+}
