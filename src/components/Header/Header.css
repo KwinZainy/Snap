@@ -13,24 +13,30 @@
     gap: 20px;
     align-items: center;
 }
-.hLinks a{
-    color: black;
+.hLinks a{ 
+Color:rgb(105, 105, 105);
     text-decoration: none;
+}
+.hLinks a:hover{
+    color: black;
 }
 .headerLink{
     display: flex;
-    gap: 20px;
+    gap: 60px;
     align-items: center;
 }
 .headerLink a{
     text-decoration: none;
+    Color:rgb(105, 105, 105);
+}
+.headerLink a:hover{
     color: black;
 }
 .headerLink button{
     border-radius: 10px;
     border: 1px solid gray;
     background-color: white;
-    padding: 10px;
+    padding: 10px 20px;
 }
 .menu{
     display: none;
